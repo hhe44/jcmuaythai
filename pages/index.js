@@ -50,7 +50,7 @@ export default function Home() {
         <h1>FIGHT.<br />TRAIN.<br />IMPROVE.<br /></h1>
         <div className={styles.services}>
           <div>
-            <p>PULIC CLASSES</p>
+            <p>PUBLIC CLASSES</p>
             <img src="https://via.placeholder.com/150" />
           </div>
           <div>
