@@ -46,7 +46,7 @@ export default function Home() {
 
       <div className={`${styles.section} ${styles.mission}`}>
         <h3>HERE AT JERSEY CITY MUAY THAI WE...</h3>
-        <h3>HERE'S WHAT WE GOT</h3>
+        <h3>HERE&apos;S WHAT WE GOT</h3>
         <h1>FIGHT.<br />TRAIN.<br />IMPROVE.<br /></h1>
         <div className={styles.services}>
           <div>
