@@ -119,8 +119,8 @@ export default function Home() {
       </div>
 
       <footer className={styles.footer}>
-        <a href="https://www.instagram.com/jersey_city_muay_thai/" target="_blank"><img src="/logos/ig.png" /></a>
-        <a href="https://www.youtube.com/channel/UCYqy69O7dCJGyMrDTDsyR4g" target="_blank"><img src="/logos/yt.png" /></a>
+        <a href="https://www.instagram.com/jersey_city_muay_thai/" target="_blank" rel="noreferrer"><img src="/logos/ig.png" /></a>
+        <a href="https://www.youtube.com/channel/UCYqy69O7dCJGyMrDTDsyR4g" target="_blank" rel="noreferrer"><img src="/logos/yt.png" /></a>
       </footer>
 
     </div>
