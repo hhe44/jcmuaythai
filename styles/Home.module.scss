@@ -17,7 +17,6 @@ $orange: rgb(255, 89, 29);
     justify-content: space-evenly;
     align-items: center;
     background-color: $black;
-
     .burger {
         width: 40px;
         height: 40px;
@@ -155,7 +154,7 @@ $orange: rgb(255, 89, 29);
         font-family: $accent-font;
         font-size: 1.5rem;
     }
-    div {
+    .profile {
         padding: 1rem 1rem 0 1rem;
         display: flex;
         flex-direction: column;
@@ -190,7 +189,7 @@ $orange: rgb(255, 89, 29);
 }
 
 .info {
-    padding: 1rem;
+    padding: 1rem 1rem 2rem 1rem;
     h1 {
         text-align: center;
         font-family: $accent-font;
@@ -226,5 +225,228 @@ $orange: rgb(255, 89, 29);
     a:last-child img {
         width: 2.5rem;
         height: 2.5rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar {
+        padding: 0 2rem;
+        justify-content: space-between;
+    }
+    .navMenu {
+        font-size: 1.5rem;
+    }
+
+    .mission {
+        padding: 2rem;
+        h3:nth-child(1) {
+            font-size: 2rem;
+        }
+        h3:nth-child(2) {
+            font-size: 2rem;
+        }
+        h1 {
+            grid-row: 1 / 3;
+            grid-column: 2 / 2;
+            font-family: $accent-font;
+            font-weight: 900;
+            font-size: 3rem;
+        }
+        .services div {
+            padding-top: 1rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            p {
+                font-size: 1.5rem;
+            }
+            img {
+                width: 16rem;
+            }
+        }
+    }
+
+    .trainers {
+        padding-top: 2rem;
+        h1 {
+            width: 100%;
+            font-size: 2rem;
+        }
+        .profiles {
+            padding-top: 1rem;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+        .profile {
+            width: 50%;
+        }
+    }
+
+    .gallery {
+        padding-top: 2rem;
+        h1 {
+            font-size: 2rem;
+        }
+        .photos {
+            justify-content: center;
+            align-items: center;
+            img {
+                padding: 1rem;
+            }
+        }
+    }
+
+    .info {
+        display: flex;
+        flex-wrap: wrap;
+
+        h1 {
+            width: 100%;
+            font-size: 2rem;
+        }
+        .infoBlock {
+            width: 50%;
+        }
+        h3 {
+            font-size: 1.5rem;
+            width: 9rem;
+        }
+        p {
+            font-size: 1.2rem;
+        }
+    }
+}
+
+@media (min-width: 1024px) {
+    .home {
+        display: flex;
+        align-self: center;
+        justify-content: center;
+        .imgWrap{
+            width: 85%;
+        }
+    }
+    .gallery {
+        display: flex;
+        flex-direction: column;
+        h1 {
+            width: 100%;
+        }
+        .photos {
+            align-self: center;
+            justify-self: self;
+            width: 80%;
+        }
+    }
+    .trainers {
+        .profile {
+            width: 33%;
+        }
+    }
+}
+
+@media (min-width: 1440px) {
+    .navbar {
+        height: 6rem;
+        padding: 1rem 4rem;
+        .burger {
+            width: 48px;
+            height: 48px;
+            top: 6px;
+            span {
+                width: 48px;
+                height: 6px;
+                margin-bottom: 8px;
+            }
+        }
+    }
+
+    .burgerToggle {
+        span:nth-child(1) {
+            top: 14px;
+        }
+        span:nth-child(3) {
+            bottom: 13px;
+        }
+    }
+    
+    .navMenu {
+        font-size: 2rem;
+    }
+
+    .mission {
+        padding: 4rem;
+        h3:nth-child(1) {
+            font-size: 4rem;
+        }
+        h3:nth-child(2) {
+            font-size: 4rem;
+        }
+        h1 {
+            grid-row: 1 / 3;
+            grid-column: 2 / 2;
+            font-family: $accent-font;
+            font-weight: 900;
+            font-size: 6rem;
+        }
+        .services div {
+            padding-top: 4rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            p {
+                font-size: 3rem;
+            }
+            img {
+                width: 20rem;
+            }
+        }
+    }
+
+    .trainers {
+        padding-top: 4rem;
+        h1 {
+            font-size: 4rem;
+        }
+        .profiles{
+            align-items: flex-start;
+        }
+        .profile {
+            width: 33%;
+            img {width: 16rem;}
+            p {
+                font-size: 1.2rem;
+            }
+        }
+    }
+
+    .gallery {
+        padding-top: 4rem;
+        h1 {
+            font-size: 4rem;
+        }
+        .photos {
+            img {
+                width: 20rem;
+            }
+        }
+    }
+
+    .info {
+        padding: 4rem 0;
+        h1 {
+            font-size: 4rem;
+        }
+        h3 {
+            font-size: 3rem;
+            width: 15rem;
+        }
+        p {
+            font-size: 1.5rem;
+        }
     }
 }

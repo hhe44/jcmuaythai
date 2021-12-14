@@ -63,25 +63,27 @@ export default function Home() {
       <div id="trainers" className={styles.trainersLink}></div>
       <div className={`${styles.section} ${styles.trainers}`}>
         <h1>MEET THE TRAINERS</h1>
-        <div className={styles.profile}>
-          <div className={styles.imgWrap}><img src="https://via.placeholder.com/150" /></div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in imperdiet urna, nec tincidunt turpis.
-            Ut dignissim neque dui, eget sodales ante elementum sed. Mauris congue dolor quis est efficitur tincidunt.
-            Nam ut ipsum sed neque lacinia faucibus. Sed in laoreet turpis. Ut sit amet arcu nibh. Sed quis urna eu
-            ipsum porttitor aliquet sed eget nisi.</p>
-        </div>
-        <div className={styles.profile}>
-          <div className={styles.imgWrap}><img src="https://via.placeholder.com/150" /></div>
-          <p>Nulla porttitor orci scelerisque sollicitudin tempor. Nullam porttitor enim magna, id viverra tellus
-            malesuada vitae. Nullam sit amet ultrices sapien. Sed condimentum, ligula at rhoncus aliquam, mi justo
-            tristique lectus, a fringilla nisl lacus sit amet augue. Etiam sed dolor sit amet ante bibendum
-            condimentum ac ac quam.</p>
-        </div>
-        <div className={styles.profile}>
-          <div className={styles.imgWrap}><img src="https://via.placeholder.com/150" /></div>
-          <p>Curabitur hendrerit vel velit sodales auctor. Suspendisse vitae ornare dui. Curabitur vel felis
-            consectetur leo pretium blandit quis eget odio. Aliquam elementum tellus ipsum. Aliquam tempor,
-            sapien id tincidunt rhoncus, enim arcu fringilla nisi, quis dapibus augue massa nec mauris.</p>
+        <div className={styles.profiles}>
+          <div className={styles.profile}>
+            <div className={styles.imgWrap}><img src="https://via.placeholder.com/150" /></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in imperdiet urna, nec tincidunt turpis.
+              Ut dignissim neque dui, eget sodales ante elementum sed. Mauris congue dolor quis est efficitur tincidunt.
+              Nam ut ipsum sed neque lacinia faucibus. Sed in laoreet turpis. Ut sit amet arcu nibh. Sed quis urna eu
+              ipsum porttitor aliquet sed eget nisi.</p>
+          </div>
+          <div className={styles.profile}>
+            <div className={styles.imgWrap}><img src="https://via.placeholder.com/150" /></div>
+            <p>Nulla porttitor orci scelerisque sollicitudin tempor. Nullam porttitor enim magna, id viverra tellus
+              malesuada vitae. Nullam sit amet ultrices sapien. Sed condimentum, ligula at rhoncus aliquam, mi justo
+              tristique lectus, a fringilla nisl lacus sit amet augue. Etiam sed dolor sit amet ante bibendum
+              condimentum ac ac quam.</p>
+          </div>
+          <div className={styles.profile}>
+            <div className={styles.imgWrap}><img src="https://via.placeholder.com/150" /></div>
+            <p>Curabitur hendrerit vel velit sodales auctor. Suspendisse vitae ornare dui. Curabitur vel felis
+              consectetur leo pretium blandit quis eget odio. Aliquam elementum tellus ipsum. Aliquam tempor,
+              sapien id tincidunt rhoncus, enim arcu fringilla nisi, quis dapibus augue massa nec mauris.</p>
+          </div>
         </div>
       </div>
 
